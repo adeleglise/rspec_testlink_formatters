@@ -1,8 +1,7 @@
 # RspecTestlinkFormatters
 
-	rspec --format RspecTestlinkJunitformatter --require ./lib/rspec_testlink_junit_formatter.rb spec/req001folder_spec.rb
-	spec --format RspecTestlinkExportCases --require ./lib/rspec_testlink_export_cases.rb spec/req001folder_spec.rb
-
+	rspec --format RspecTestlinkJunitformatter -r rspec_testlink_formatters
+	rspec --format RspecTestlinkExportCases -r rspec_testlink_formatters
 
 TODO: Write a gem description
 
